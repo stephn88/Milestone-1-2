@@ -1,17 +1,28 @@
 nav {
   font-family: Helvetica;
   text-align: center;
-  background-color: rgb(248, 248, 248);
+  background-color: rgb(248, 248, 248) 0.2;
 }
 p {
   font-family: Helvetica;
   font-weight: bold;
   color: black;
   padding: 50px 70px;
-  background-color: rgb(248, 248, 248);
-  opacity: 0.2;
   text-align: center;
 }
+
+.introduction {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  transition: 0.3s font-size linear;
+}
+
+.introduction:hover {
+  font-size: 10px;
+  transition: 0.1s font-size linear;
+}
+
 li {
   font-family: Helvetica;
   padding: 10px;
@@ -39,4 +50,16 @@ html {
   background: url("https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80")
     no-repeat center fixed;
   background-size: cover;
+}
+
+.topnav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 140px;
+  font-weight: bolder;
+  transition: 0.3s font-size linear;
+}
+
+.topnav:hover {
+  font-size: 100px;
+  transition: 0.1s font-size linear;
 }
